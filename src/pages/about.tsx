@@ -11,17 +11,18 @@ export default function About() {
       <main className="max-w-4xl mx-auto py-12 px-6">
         <h1 className="text-3xl font-bold text-blue-400 mb-6">About Me</h1>
         <p className="mb-4">
-          Hi, I am Rudra, a 2nd-year B.Tech CSE student passionate about web development, 
-          cloud, and cybersecurity.
+          Hi, I am Rudra, a 2nd-year B.Tech CSE student passionate about Web Development, 
+          Cloud, and Cybersecurity.
         </p>
         <h2 className="text-2xl font-semibold mt-6">Education</h2>
-        <p>B.Tech in Computer Science, [Your College]</p>
+        <p>B.Tech in Computer Science, SRM Institute of Science and Technology.</p>
         
         <h2 className="text-2xl font-semibold mt-6">Skills</h2>
         <ul className="list-disc list-inside">
           <li>Frontend: HTML, CSS, JavaScript, React, Next.js, TailwindCSS</li>
           <li>Backend: Node.js, APIs (Learning)</li>
           <li>Cybersecurity Basics</li>
+          <li>Other Languages: C,C++,Java</li>
         </ul>
       </main>
       <Footer />
