@@ -20,8 +20,7 @@ export default function About() {
         <h2 className="text-2xl font-semibold mt-6">Skills</h2>
         <ul className="list-disc list-inside">
           <li>Frontend: HTML, CSS, JavaScript, React, Next.js, TailwindCSS</li>
-          <li>Backend: Node.js, APIs (Learning)</li>
-          <li>Cybersecurity Basics</li>
+          <li>Backend: Node.js(Learning)</li>
           <li>Other Languages: C,C++,Java</li>
         </ul>
       </main>
