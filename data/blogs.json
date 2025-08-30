@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Web Development",
+    "content": "In this blog, I share my journey of learning web development, starting with HTML, CSS, JavaScript, and then moving to React and Next.js."
+  },
+  {
+    "id": 2,
+    "title": "Why I Built This Portfolio",
+    "content": "This blog explains how I created my portfolio project using Next.js and TailwindCSS as part of my college club task."
+  },
+  {
+    "id": 3,
+    "title": "My Future Learning Goals",
+    "content": "I plan to learn backend development, APIs, and cloud computing to become a full-stack developer in the future."
+  }
+]

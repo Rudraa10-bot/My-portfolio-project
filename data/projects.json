@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio built with Next.js and TailwindCSS to showcase my blogs and projects."
+  },
+  {
+    "id": 2,
+    "title": "Weather App",
+    "description": "A simple weather forecast app that shows real-time weather data using an open API."
+  },
+  {
+    "id": 3,
+    "title": "Todo List App",
+    "description": "A task management app built with React to keep track of daily activities."
+  }
+]
