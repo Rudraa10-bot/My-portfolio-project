@@ -1,4 +1,9 @@
 declare module "*.json" {
-  const value: any;
+  type Blog = {
+    title: string;
+    description: string;
+  }[];
+
+  const value: Blog;
   export default value;
 }
