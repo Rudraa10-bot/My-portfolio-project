@@ -1,8 +1,12 @@
 import BackButton from "@/components/BackButton";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 function Projects() {
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className="min-h-screen bg-gray-950 text-white flex flex-col">
+      <Navbar />
+    <main className="p-6 max-w-4xl mx-auto">
        <div className="mb-6">
         <BackButton href="/" label="⬅ Back to Home" />
       </div>
@@ -19,6 +23,9 @@ function Projects() {
             </p>
           </div>
         </div>
+      </main>
+
+      <Footer/>
       </div>
   );
 }

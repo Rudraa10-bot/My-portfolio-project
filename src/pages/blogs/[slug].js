@@ -1,5 +1,7 @@
 import { useRouter } from "next/router";
 import BackButton from "@/components/BackButton";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export default function BlogPost() {
   const router = useRouter();
@@ -35,13 +37,17 @@ export default function BlogPost() {
   if (!post) return <p className="p-6">Blog not found</p>;
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className="min-h-screen bg-gray-950 text-white flex flex-col">
+      <Navbar />
+    <main className="p-6 max-w-4xl mx-auto">
         <div className="mb-6">
             <BackButton href="/blogs" label="⬅ Back to Blogs" />
         </div>
 
       <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
       <p className="text-gray-300 whitespace-pre-line">{post.content}</p>
+      </main>
+      <Footer/>
     </div>
   );
 }

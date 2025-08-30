@@ -1,5 +1,7 @@
 import Link from "next/link";
 import BackButton from "@/components/BackButton";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { useState } from "react";
 
 
@@ -28,7 +30,10 @@ export default function Blogs() {
   ];
 
   return (
-    <div className="p-6 max-w-6xl mx-auto">
+    <div className="min-h-screen bg-gray-950 text-white flex flex-col">
+      {/* Navbar added at top */}
+      <Navbar />
+    <main className="p-6 max-w-6xl mx-auto">
       <div className="mb-6">
         <BackButton href="/" label="⬅ Back to Home" />
       </div>
@@ -59,6 +64,8 @@ export default function Blogs() {
           </Link>
         ))}
       </div>
+    </main>
+    <Footer />
     </div>
   );
 }
