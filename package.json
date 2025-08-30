@@ -5,7 +5,7 @@
   "scripts": {
     "tailwind:init": "tailwindcss init -p",
     "dev": "next dev --turbopack",
-    "build": "next build --eslint-ignore",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
